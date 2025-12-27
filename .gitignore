@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Data / output
+OUTPUT/
+*.bin
+
+
+# OS
+.DS_Store

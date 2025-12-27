@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sofi2dpy"
+version = "0.1.0"
+description = "Python tools for SOFI2D seismic modeling"
+authors = [
+    {name = "Your Name", email = "you@example.com"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "obspy"
+]
+
+[project.urls]
+"Homepage" = "https://example.com"
+"Repository" = "https://github.com/yourrepo/sofi2d-pythontools"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["sofi2dpy*"]
