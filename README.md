@@ -1,5 +1,7 @@
 # SOFI2D Python Tools
 
+[中文说明 🇨🇳](README_zh.md)
+
 A lightweight Python toolkit for **preprocessing, configuring, running, and post-processing**
 [SOFI2D](https://github.com/seismic-ldeo-columbia/sofi2d) simulations, with a focus on  
 **elastic 2D modeling** and **reproducible workflows**.
