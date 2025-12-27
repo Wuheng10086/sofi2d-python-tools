@@ -110,8 +110,11 @@ pip install -e .
 
 ---
 ## Quick Start (SEAM Elastic Example)
+
+```bash
 cd examples/SEAM_elastic
 python run_sofi.py
+```
 
 This will:
 1. Read SEAM elastic models (Vp, Vs, density)
