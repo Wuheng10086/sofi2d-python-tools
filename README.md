@@ -21,6 +21,7 @@ for beginners and rapid prototyping.
 This project provides a **Python-based interface and workflow** to make SOFI2D easier to use,
 configure, and reproduce.
 
+
 ---
 
 ## Features
